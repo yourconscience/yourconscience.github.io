@@ -1,4 +1,3 @@
-# yourconscience.github.io
-
-Source of https://yourconscience.github.io/, the home page that links my project sites.
-Plain static files (`index.html`, `style.css`, `favicon.svg`) served by GitHub Pages; no build step.
+Source of https://yourconscience.github.io/.
+Plain static HTML and CSS, no build step.
+Fonts: Public Sans and IBM Plex Mono under the SIL OFL (see fonts/OFL.txt).
