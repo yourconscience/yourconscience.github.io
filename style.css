@@ -38,7 +38,8 @@ body {
 h1 { font-size: 17px; font-weight: 600; line-height: 1.4; margin: 0; letter-spacing: 0; }
 .role { margin: 0; color: var(--muted); }
 .intro { margin: 24px 0 0; max-width: 34em; text-wrap: pretty; }
-.links { margin: 12px 0 0; }
+.links { margin: 12px 0 0; display: flex; flex-wrap: wrap; gap: 4px 22px; }
+.links svg { flex: none; width: 16px; height: 16px; fill: currentColor; color: var(--muted); }
 main { margin-top: 48px; }
 h2 { font-size: 17px; font-weight: 600; margin: 0; }
 
@@ -62,7 +63,8 @@ a {
   text-decoration-color: var(--underline);
 }
 a:hover { text-decoration-color: currentColor; }
-.name, .source, .links a { display: inline-block; padding: 12px 0; margin: -12px 0; }
+.name, .source { display: inline-block; padding: 12px 0; margin: -12px 0; }
+.links a { display: inline-flex; align-items: center; gap: 7px; padding: 12px 0; margin: -12px 0; }
 .source { padding: 13px 0; margin: -13px 0; }
 :focus-visible { outline: 2px solid currentColor; outline-offset: 3px; border-radius: 2px; }
 
